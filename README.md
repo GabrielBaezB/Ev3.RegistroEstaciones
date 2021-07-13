@@ -3,10 +3,12 @@ Evaluación 3 Programación Avanzada de Aplicaciones Contexto:
 Desarrollar Aplicación Web con objetivos de consulta: Si bien la empresa cuenta  con los mecanismos para efectuar el registro de Clientes de las estaciones, 
 no  cuenta con mecanismos para el registro y administración de Estaciones y puntos  de carga, por lo cual debe ser implementada por su empresa de desarrollo. 
 Crear una aplicación web ASP.net que permita 
+
 • Administración de Estaciones de Servicio 
 o Registrar  
 o Visualizar en una grilla 
 o Eliminar estaciones 
+
 • Administración de Puntos de Carga 
 o Registrar  
 o Visualizar en una grilla 
