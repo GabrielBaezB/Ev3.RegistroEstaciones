@@ -67,19 +67,74 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="AddEstacion.aspx" />
+    <Content Include="AddPuntoCarga.aspx" />
+    <Content Include="Default.aspx" />
+    <Content Include="ListEstaciones.aspx" />
+    <Content Include="ListPuntosCarga.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddEstacion.aspx.cs">
+      <DependentUpon>AddEstacion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AddEstacion.aspx.designer.cs">
+      <DependentUpon>AddEstacion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AddPuntoCarga.aspx.cs">
+      <DependentUpon>AddPuntoCarga.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AddPuntoCarga.aspx.designer.cs">
+      <DependentUpon>AddPuntoCarga.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ListEstaciones.aspx.cs">
+      <DependentUpon>ListEstaciones.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ListEstaciones.aspx.designer.cs">
+      <DependentUpon>ListEstaciones.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ListPuntosCarga.aspx.cs">
+      <DependentUpon>ListPuntosCarga.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ListPuntosCarga.aspx.designer.cs">
+      <DependentUpon>ListPuntosCarga.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Principal.Master.cs">
+      <DependentUpon>Principal.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Principal.Master.designer.cs">
+      <DependentUpon>Principal.Master</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+    <Content Include="Principal.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
+    <Content Include="Web.sitemap" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\RegistroEstacionesDAL\RegistroEstacionesDAL.csproj">
+      <Project>{E188B090-9D9F-4B9F-9B7D-A4E3C486D509}</Project>
+      <Name>RegistroEstacionesDAL</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
