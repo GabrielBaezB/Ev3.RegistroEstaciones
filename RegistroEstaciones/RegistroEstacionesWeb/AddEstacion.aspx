@@ -37,26 +37,32 @@
             <br />
             <div class="form-group col-xl-5">
                 <label class="control-label text-warning pt-2" for="horarioTxt">Horario de atención</label>
-                <div class="">
-                    <label class="text-warning pt-2" for="apreturaTxt">Apertura</label>
-                    <asp:TextBox ID="aperturaTxt" runat="server" type="Time" placeholder="Ej: 08:00" CssClass="dropdown-toggle"></asp:TextBox>
+                <div class="row">
+                    <div class="col-8 col-sm-6">
+                     <label class="text-warning pt-2" for="apreturaTxt">Apertura</label>
+                    <asp:TextBox ID="aperturaTxt" runat="server" type="Time" CssClass="dropdown-toggle"></asp:TextBox>
                     <asp:CustomValidator ID="aperturaCV" runat="server" ErrorMessage="CustomValidator"
                         CssClass="text-danger" ControlToValidate="aperturaTxt" ValidateEmptyText="true"
                         OnServerValidate="aperturaCV_ServerValidate"></asp:CustomValidator>
-                </div>
-                <div class="">
+                    </div>
+                     <div class="col-4 col-sm-6">
                     <label class="control-label text-warning pt-2" for="cierreTxt">Cierre</label>
-                    <asp:TextBox ID="cierreTxt" runat="server" type="Time" placeholder="Ej: 20:00" CssClass="dropdown-toggle"></asp:TextBox>
+                    <asp:TextBox ID="cierreTxt" runat="server" type="Time" CssClass="dropdown-toggle"></asp:TextBox>
                     <asp:CustomValidator ID="cierreCV" runat="server" ErrorMessage="CustomValidator"
                         CssClass="text-danger" ControlToValidate="cierreTxt" ValidateEmptyText="true"
                         OnServerValidate="cierreCV_ServerValidate"></asp:CustomValidator>
+                    </div>
+
                 </div>
+             
             </div>
-            <div>
-                <asp:Button ID="RegistrarBtn" runat="server" Text="Registrar Estación" CssClass="btn btn-success" OnClick="RegistrarBtn_Click" />
-            </div>
-            <div class="col-xl-3">
-            <asp:Label ID="MensajeLbl" CssClass="Text-success H1" runat="server"></asp:Label>
+            <div class="container-fluid h-100 pb-3">
+                <div class="row w-100 align-items-center">
+                    <asp:Button ID="RegistrarBtn" runat="server" Text="Registrar Estación" CssClass="btn btn-outline-success btn-lg btn-block" OnClick="RegistrarBtn_Click" />
+                </div>
+                <div class="col-xl-3">
+                    <asp:Label ID="MensajeLbl" CssClass="Text-success H1" runat="server"></asp:Label>
+                </div>
         </div>
         </div>
         </div>
