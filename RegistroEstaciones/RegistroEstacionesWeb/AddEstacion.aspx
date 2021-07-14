@@ -20,7 +20,7 @@
                     OnServerValidate="direccionCV_ServerValidate"></asp:CustomValidator>
             </div>
             <div class="form-group">
-                <label class="control-label text-warning pt-2" for="capacidadTxt">Capacidad maxima de Puntos de Carga</label>
+                <label class="control-label text-warning pt-2" for="capacidadTxt">Capacidad maxima de KW</label>
                 <asp:TextBox ID="capacidadTxt" runat="server" CssClass="form-control"></asp:TextBox>
                 <asp:CustomValidator ID="capacidadCV" runat="server" ErrorMessage="CustomValidator"
                     ValidateEmptyText="true" CssClass="text-danger" ControlToValidate="capacidadTxt"

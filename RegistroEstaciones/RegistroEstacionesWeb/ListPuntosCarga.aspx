@@ -4,8 +4,12 @@
     <div >
     <asp:DropDownList ID="tipoDbl" runat="server" Enabled="false"
         AutoPostBack="true" OnSelectedIndexChanged="tipoDbl_SelectedIndexChanged">
-        <asp:ListItem Value="1" Selected="true" Text="Eléctrico"></asp:ListItem>
-        <asp:ListItem Value="2" text="Dual"></asp:ListItem>
+            <asp:ListItem Value="1" Selected="True" Text="Carga Lenta"></asp:ListItem>
+                <asp:ListItem Value="2" Text="Carga semi rápida"></asp:ListItem>
+                <asp:ListItem Value="3" Text="Carga rápida"></asp:ListItem>
+                <asp:ListItem Value="4" Text="Carga super rápida"></asp:ListItem>
+                <asp:ListItem Value="5" Text="Carga ultra rápida"></asp:ListItem>
+        
     </asp:DropDownList>
         <asp:CheckBox ID="todosChx" Checked="true" runat="server" 
             AutoPostBack="true" OnCheckedChanged="todosChx_CheckedChanged" Text="Ver Todos"

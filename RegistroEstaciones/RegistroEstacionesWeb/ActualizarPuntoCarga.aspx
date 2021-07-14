@@ -18,8 +18,11 @@
             <div class="form-group col-xl-3">
                 <label class="control-label" for="tipoRbl">Tipo</label>
                 <asp:RadioButtonList ID="tipoRbl" runat="server" CssClass="form-control">
-                    <asp:ListItem Value="1" Text="Eléctrico"></asp:ListItem>
-                    <asp:ListItem Value="2" Text="Dual"></asp:ListItem>
+            <asp:ListItem Value="1" Selected="True" Text="Carga Lenta"></asp:ListItem>
+                <asp:ListItem Value="2" Text="Carga semi rápida"></asp:ListItem>
+                <asp:ListItem Value="3" Text="Carga rápida"></asp:ListItem>
+                <asp:ListItem Value="4" Text="Carga super rápida"></asp:ListItem>
+                <asp:ListItem Value="5" Text="Carga ultra rápida"></asp:ListItem>
                 </asp:RadioButtonList>
             </div>
             <div class="form-group col-xl-3">

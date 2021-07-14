@@ -8,8 +8,8 @@
             >
             <Columns>
                 <asp:BoundField HeaderText="ID" DataField="Id" />
+                <asp:BoundField HeaderText="Capacidad Máxima KW" DataField="CapacidadMax" />
                 <asp:BoundField HeaderText="Dirección" DataField="Direccion" />
-                <asp:BoundField HeaderText="Capacidad Máxima de puntos de carga" DataField="CapacidadMax" />
                 <asp:BoundField HeaderText="Región donde se ubica" DataField="Region" />
                 <asp:BoundField HeaderText="Horario de atención" DataField="HorarioAtencion" />
                 <asp:TemplateField HeaderText="Acciones">

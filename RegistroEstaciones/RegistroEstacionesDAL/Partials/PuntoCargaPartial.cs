@@ -12,12 +12,21 @@ namespace RegistroEstacionesDAL
                 switch (Tipo)
                 {
                     case 1:
-                        texto = "Consumo";
+                        texto = "Carga Lenta";
                         break;
                     case 2:
-                        texto = "Trafico";
+                        texto = "Carga semi rápida";
                         break;
-                }
+                    case 3:
+                        texto = "Carga rápida";
+                        break;
+                    case 4:
+                        texto = "Carga super rápida";
+                        break;
+                    case 5:
+                        texto = "Carga ultra rápida";
+                        break;
+                                   }
                 return texto;
             }
         }
