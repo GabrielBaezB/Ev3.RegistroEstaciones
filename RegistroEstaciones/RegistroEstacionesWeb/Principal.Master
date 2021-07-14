@@ -31,7 +31,7 @@
                                 <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Estaciones de Servicio
                                 </a>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <li><a class="dropdown-item" href="AddEstacion.aspx">Registrar nueva</a></li>
+                                    <li><a class="dropdown-item" href="AddEstacion.aspx">Crear Nueva Estacion de Servicio</a></li>
                                     <li><a class="dropdown-item" href="ListEstaciones.aspx">Listar Estaciones</a></li>
                                 </ul>
                             </li>
@@ -39,7 +39,7 @@
                                 <a class="nav-link dropdown-toggle" id="navbarDropdown2" role="button" data-bs-toggle="dropdown" aria-expanded="false">Puntos De Carga
                                 </a>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <li><a class="dropdown-item" href="AddPuntoCarga.aspx">Registrar Nuevo</a></li>
+                                    <li><a class="dropdown-item" href="AddPuntoCarga.aspx">Crear Nuevo Punto de Carga</a></li>
                                     <li><a class="dropdown-item" href="ListPuntosCarga.aspx">Listar Puntos de Carga</a></li>
                                 </ul>
                             </li>
@@ -51,7 +51,7 @@
 
 
 
-        <div class="mt-5">
+        <div class="mt-3">
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
             </asp:ContentPlaceHolder>
         </div>
