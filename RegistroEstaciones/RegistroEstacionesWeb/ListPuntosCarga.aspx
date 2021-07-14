@@ -22,7 +22,7 @@
                 <asp:BoundField HeaderText="ID" DataField="Id" />
                 <asp:BoundField HeaderText="Tipo" DataField="Tipo" />
                 <asp:BoundField HeaderText="Capacidad máxima de vehículos" DataField="CapacidadMax" />
-                <asp:BoundField HeaderText="Fecha cuando debe ser remplazado" DataField="VidaUtil" />
+                <asp:BoundField HeaderText="Fecha de Reemplazo" DataField="VidaUtil" />
                 <asp:TemplateField HeaderText="Acciones">
                     <ItemTemplate>                           
                         <asp:LinkButton ID="LinkButton1" CssClass="btn btn-outline-secondary"  runat="server" CommandName="actualizar" 

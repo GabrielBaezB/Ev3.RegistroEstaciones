@@ -67,6 +67,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="ActualizarPuntoCarga.aspx" />
     <Content Include="AddEstacion.aspx" />
     <Content Include="AddPuntoCarga.aspx" />
     <Content Include="Default.aspx" />
@@ -75,6 +76,13 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ActualizarPuntoCarga.aspx.cs">
+      <DependentUpon>ActualizarPuntoCarga.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ActualizarPuntoCarga.aspx.designer.cs">
+      <DependentUpon>ActualizarPuntoCarga.aspx</DependentUpon>
+    </Compile>
     <Compile Include="AddEstacion.aspx.cs">
       <DependentUpon>AddEstacion.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
